@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+</style>
+<link id="stylesheet" rel="stylesheet" type="text/css" href="/home.css">
+<meta charset="UTF-8">
+<title>William Watkins</title>
+</head>
+<body>
+<div class="top-panel">
+	<div class="name">William Watkins</div>
+	<div class="job-title">Java Developer</div>
+	<div class="contact">
+		<div class="phone"><i class="contact-icon" data-lucide="phone"></i>(734)-883-3660</div>
+		<div class="email"><i class="contact-icon" data-lucide="mail"></i> wwatkins2221@gmail.com</div>
+		<div class="location"><i class="contact-icon" data-lucide="map-pin"></i> Ann Arbor, MI 48104</div>
+		<a class="github" href="https://github.com/WillWat94" target="_blank">
+  			<i class="contact-icon" data-lucide="github"></i> github.com/WillWat94
+		</a>
+	</div>
+</div>
+<div class="main-stage">
+	<div class="about-section">
+		<div class="section-title">About</div>
+		<div class="section-body">Aspiring full stack developer with a foundation in Java, PHP, and SQL. Transitioning into the tech field after 10+ years of work varying from kitchen staff to warehouse shipping supervisor. After discovering computer science I've become passionate about learning new backend systems, the best ways to write and structure projects, and problem solving for the best user experience.</div>
+	</div>
+	<div class="education-section">
+		<div class="section-title">Education</div>
+		<div class="section-body">
+			<div style="font-size: 30px;">Associate in Science: Computer Science</div>
+			<div style="font-size:25px;">Programming in Java</div>
+			<div>Washtenaw Community College, Class of '25</div>
+			<div style="margin-top: 25px;">My time studying computer science has been very fulfilling. I plan to pursue a bachelor’s degree in the future, but in the meantime I’ve focused on independent learning and projects to continue growing as a developer. My personal studies have been focused on learning Python for AI model training and integration, as well as expanding my skill set with Java. I've enjoyed learning new skills and tools that can be used when building my independent projects.</div>
+		</div>
+	</div>
+	<div class="projects-section">
+		<div class="section-title">Projects</div>
+		<div class="section-body">
+				<a class="project-name" th:href="@{/projects/print3dedition}" target="_blank">
+					Print3d Edition
+				</a>
+			<div class="project-container">
+				<img src="/uploads/images/Print3dEdition_Thumbnail.png" class="project-thumbnail">
+				<div class="project-description"> Print3d Edition is an e-commerce website for my friend's 3D printing business.</div>
+			</div>
+		</div>
+	</div>
+	<div class="work-section">
+		<div class="section-title">Work History</div>
+		<div class="section-body">
+			<div style="font-size: 30px;">Shipping Supervisor</div>
+			<div style="font-size:25px;">Jan 2025 - Present</div>
+			<div>ED Brands, Whitmore Lake, MI 48189</div>
+			<div style="margin-top: 20px;">Began in an entry-level role focused on order prep and shipping, then quickly promoted to supervisor. Responsible for processing packages being shipped and overlooking team members packing orders to ensure quality and shipping requirements.</div></br>
+			<div>The key things I've learned working this position is seeing and using the tools used by companies for day to day business. It has provided a lot of insight on what software features streamline workflow, which has helped me build better backend systems.</div>
+			
+			<div style="margin-top: 20px; font-size: 30px;">Prepared Foods Team Member</div>
+			<div style="font-size:25px;">Jun 2014 - Nov 2023</div>
+			<div>Whole Foods Market, Ann Arbor, MI 48104</div>
+			<div style="margin-top: 20px;">The bulk of my work experience where I spent nearly 10 years in different kitchen positions. The positions I worked would have me doing a varying range of tasks such as customer service, preparing hot food, and inventory management.</div></br>
+			<div>My time here taught me how to work with members of a team in an often fast paced environment where timing and quality was crucial. It also taught me how to present myself as the face of the company when interacting with its customers. Knowing the importance of communicating with your team and filling in the gaps when they arise are skills I'll carry with me everywhere.</div>
+		</div>
+	</div>
+</div>
+
+<script>
+  lucide.createIcons();
+</script>
+</body>
+</html>

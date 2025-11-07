@@ -1,0 +1,109 @@
+body{
+	display: flex;
+	flex-direction: column;
+	background: radial-gradient(circle at top left, #101e41 10%, #0f172a 40%);
+  	height: 100%;
+  	min-height: 100vh;
+  	margin: 0;
+  	padding: 0;
+}
+
+.top-panel{
+	width: 100vw;
+	height: 40vh;
+	font-family: 'Oswald', sans-serif;
+	color: #E0E0E0;
+}
+
+.name{
+	font-size: 60px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.job-title{
+	font-size: 35px;
+	margin-left: 45px;
+}
+
+.contact{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+
+.contact-icon{
+	width: 18px;
+	height: 18px;
+	padding-right: 5px;
+}
+
+.github{
+	color: #E0E0E0;
+}
+
+.main-stage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	font-family: 'Oswald', sans-serif;
+	color: #E0E0E0;
+}
+
+.about-section{
+	width: 50vw;
+}
+
+.section-title{
+	background-color: #101e41;
+	font-size: 35px;
+}
+
+.section-body{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.education-section{
+	width: 50vw;
+	margin-top: 30px;
+}
+
+.work-section{
+	width: 50vw;
+	margin-top: 30px;
+}
+
+.projects-section{
+	width: 50vw;
+	margin-top: 30px;
+}
+
+.project-name{
+	color: #E0E0E0;
+	font-size: 30px;
+}
+
+.project-name:hover{
+	color: #34eb49;
+
+}
+
+.project-container{
+	display: flex;
+	flex-direction: rows;
+	margin-top: 15px;
+}
+
+.project-thumbnail{
+	height: 150px;
+	width: 15vw;
+}
+
+.project-description{
+	width: 80vw;
+	margin-left: 10px;
+	font-size: 25px;
+}
